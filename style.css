@@ -1,5 +1,6 @@
 body {
-    background-color: red;
+    background-color: black; 
+    color: white;
     margin: 0;
   }
   
@@ -17,8 +18,13 @@ body {
     text-align: center;
   }
   
+  #menu  {
+    list-style: disc; 
+    padding-left: 0;
+  }
+  
   .grid-container {
-    border: thin solid black;
+    border: thin solid white;
     display: grid;
     grid-template-areas: 'header header header header header header'
                          'right right content content content content'
@@ -34,5 +40,5 @@ body {
   #footer { grid-area: footer; }
   
   .box {
-   border: thin solid black;
+   border: thin solid white;
   }
